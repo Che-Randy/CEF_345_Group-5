@@ -67,7 +67,7 @@
             </div>
         </div>
         
-        <p>Download the LET'S GO! app today to experience the ease of transportation at your fingertips!</p>
+        <p>Download the LET'S GO! app today to experience the ease of transportation at your fingertips! best in the world</p>
     </div>
 </body>
 </html>
