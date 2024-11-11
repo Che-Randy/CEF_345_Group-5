@@ -67,8 +67,14 @@
             </div>
         </div>
         
+Che-Randy-patch-1
         <p>Download the LET'S GO! app today to experience the ease of transportation at your fingertips! best in the world</p>
     </div>
 </body>
 </html>
  note (1).html…]()
+        <p>Download the LET'S GO! app today to experience the ease of transportation at your fingertips!</p>
+    </div>
+</body>
+</html>
+ main
