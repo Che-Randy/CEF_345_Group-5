@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web Page</title>
+    <title>LET'S GO!</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Web Page!</h1>
-        <p>This is a simple web page created using HTML, CSS, and JavaScript.</p>
+        <h1>LET'S GO!</h1>
+        <p>Your ride is just a click away!</p>
     </header>
-    
-    <section>
-        <h2>Interactive Button</h2>
-        <button id="clickButton">Click me!</button>
-        <p id="message"></p>
-    </section>
+    <main>
+        <form id="ride-form">
+            <label for="pickup">Pickup Location:</label>
+            <input type="text" id="pickup" placeholder="Enter pickup location" required>
 
+            <label for="dropoff">Dropoff Location:</label>
+            <input type="text" id="dropoff" placeholder="Enter dropoff location" required>
+
+            <label for="ride-type">Choose a Ride:</label>
+            <select id="ride-type" required>
+                <option value="economy">Economy</option>
+                <option value="standard">Standard</option>
+                <option value="luxury">Luxury</option>
+            </select>
+
+            <button type="button" id="calculate-fare">Calculate Fare</button>
+        </form>
+        <div id="fare-display"></div>
+    </main>
     <footer>
-        <p>Created by Group 5</p>
+        <p>© 2024 LET'S GO! All rights reserved.</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>

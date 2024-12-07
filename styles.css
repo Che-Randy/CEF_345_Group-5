@@ -1,47 +1,67 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    text-align: center;
+    background-color: #ff7f50;
     color: white;
-    text-align: center;
+    padding: 20px 0;
+}
+
+main {
     padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    margin: 0;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-section {
-    text-align: center;
-    margin: 50px 0;
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #ff7f50;
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 16px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #e66a3f;
+}
+
+#fare-display {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #2c3e50;
 }
 
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
 }
