@@ -1,0 +1,4 @@
+mkdir LetsGo
+cd LetsGo
+npm init -y
+npm install express mysql2 body-parser
