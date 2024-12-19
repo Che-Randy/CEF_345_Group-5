@@ -1,13 +1,22 @@
 const express = require('express');
+const bodyParser = require('body-parser');
+
 const app = express();
 const PORT = 3000;
 
-// Test route
-app.get('/', (req, res) => {
-    res.send('Server is running!');
+// Middleware
+app.use(bodyParser.json());
+
+// Test API routes
+app.get('/api/users', (req, res) => {
+    res.json({ message: 'GET all users' });
 });
 
-// Start server
+app.post('/api/users', (req, res) => {
+    const user = req.body;
+    res.json({ message: 'POST a new user', user });
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
